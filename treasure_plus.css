@@ -1,0 +1,150 @@
+/* 基本样式重置 */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* 容器样式 */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* 标题样式 */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* 玩家信息区域样式 */
+.player-info {
+    margin-bottom: 20px;
+}
+
+.player-info p {
+    margin: 10px 0;
+}
+
+.player-info strong {
+    color: #d2691e;
+}
+
+/* 游戏历史列表样式 */
+#game-history {
+    list-style: none;
+    padding: 0;
+}
+
+#game-history li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #e0f7fa;
+    border-radius: 4px;
+}
+
+/* 玩家设置区域样式 */
+#player-setup {
+    margin-bottom: 20px;
+}
+
+#player-setup input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#save-info {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#save-info:hover {
+    background-color: #1678d2;
+}
+
+/* 状态和游戏开始按钮样式 */
+#status {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+#start-game {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#start-game:hover {
+    background-color: #218838;
+}
+
+/* 提示区域样式 */
+#prompt-container {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#prompt-text {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+#user-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit-button:hover {
+    background-color: #c82333;
+}
+
+/* 结果区域样式 */
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+}
